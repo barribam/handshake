@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Handshake</title>
+</head>
+<body>
+
+  <h2>User Lookup</h2>
+
+  <input id="userIdInput" placeholder="Enter User ID" />
+  <button id="lookupBtn">Lookup</button>
+
+  <p id="loadingMessage" style="display:none;">
+    Loading user data...
+  </p>
+
+  <hr />
+
+  <label>Name:</label>
+  <input id="name" readonly /><br />
+
+  <label>Email:</label>
+  <input id="email" readonly /><br />
+
+  <label>Department:</label>
+  <input id="department" readonly />
+
+  <script type="module" src="client.js"></script>
+</body>
+</html>
